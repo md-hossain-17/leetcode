@@ -18,6 +18,10 @@ const firstUniqChar = (s) => {
     return -1;
 };
 
+/**
+ * @param string str
+ * @return Map
+ */
 const getCounterMap = (str) => {
     const map = new Map();
     for (const c of str) {
